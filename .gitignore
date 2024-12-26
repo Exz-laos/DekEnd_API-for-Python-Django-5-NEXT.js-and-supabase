@@ -1,0 +1,57 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables and configuration
+.env
+*.env
+
+# Django secret key file or settings
+settings_local.py
+
+# Logs
+*.log
+
+# Media and uploaded files
+media/
+uploads/
+
+# Byte-compiled Python / Cython extensions
+*.so
+
+# Temporary files
+*.swp
+*.swo
+*.DS_Store
+*.egg-info/
+*.bak
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Static file collections
+staticfiles/
+static/
+
+# Supabase specific
+.supabase/
+supabase/.temp/
+supabase/.cache/
+
+# Docker
+*.pid
+*.seed
